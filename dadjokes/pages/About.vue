@@ -13,7 +13,8 @@
                 meta:[
                     {
                         hid: 'description',
-                        name: 
+                        name: 'description',
+                        content: 
                     }
                     
                 ]

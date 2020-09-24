@@ -14,7 +14,7 @@
                     {
                         hid: 'description',
                         name: 'description',
-                        content: 
+                        content: 'Best place for corny dad jokes'
                     }
                     
                 ]

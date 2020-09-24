@@ -7,7 +7,10 @@
 
     <script>
         export default {
-            
+            head() {
+                title: 'About the App'
+            }
+                
         };
     </script>
 

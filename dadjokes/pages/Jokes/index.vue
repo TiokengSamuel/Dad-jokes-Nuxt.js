@@ -5,10 +5,15 @@
 </template>
 
 <script>
+    data(){
+        return {
+            jokes: []
+        }
+    }
     export default {
         head() {
             return {
-                title: 'Welcome to Dad jokes',
+                title: 'Dad jokes',
                 meta:[
                     {
                         hid: 'description',

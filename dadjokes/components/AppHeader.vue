@@ -24,5 +24,7 @@ export default {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin-bottom: 1rem;
+        border-bottom: 1px dotted #ccc;
     }
 </style>

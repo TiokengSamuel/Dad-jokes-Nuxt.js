@@ -33,4 +33,14 @@
     color: #666;
     text-decoration: none;
   }
+
+ul{
+  list-style: none;
+}
+
+.container {
+  max-width: 800px;
+  margin: 
+}
+
 </style>

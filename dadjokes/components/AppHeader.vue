@@ -2,13 +2,13 @@
     <h1 class="title">Dad Jokes</h1>
     <ul>
         <li>
-            <nuxt-link to='/'>Home</nuxt-link>
+            <Nuxt-link to='/'>Home</Nuxt-link>
         </li>
         <li>
-            <nuxt-link to='/jokes'>Jokes</nuxt-link>
+            <Nuxt-link to='/jokes'>Jokes</Nuxt-link>
         </li>
         <li>
-            <nuxt-link to='/about'>About</nuxt-link>
+            <Nuxt-link to='/about'>About</Nuxt-link>
         </li>
     </ul>
 </template>

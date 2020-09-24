@@ -8,12 +8,17 @@
     <script>
         export default {
             head() {
+                return {
                 title: 'About the App',
                 meta:[
-                    hida
+                    {
+                        hid: 'description',
+                        name: '
+                    }
+                    
                 ]
             }
-                
+         }    
         };
     </script>
 

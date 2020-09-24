@@ -8,7 +8,10 @@
     <script>
         export default {
             head() {
-                title: 'About the App'
+                title: 'About the App',
+                meta:[
+                    hida
+                ]
             }
                 
         };

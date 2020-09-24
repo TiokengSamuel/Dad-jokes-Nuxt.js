@@ -43,7 +43,7 @@ ul{
   margin: 2rem auto;
   overflow: hidden; 
   padding: 1rem 2rem;
-  background: #fff;s
+  background: #fff;
 }
 
 </style>

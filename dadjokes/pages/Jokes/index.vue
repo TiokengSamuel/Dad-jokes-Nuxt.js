@@ -12,10 +12,15 @@
             jokes: []
         }
     },
-    created() {
+    async created() {
+        const config = {
+            headers: {
+                'Accept' : 'application/json'
+            }
+        }
 
+        const res = await axios.get();
     },
-
      head() {
         return {
             title: 'Dad jokes',

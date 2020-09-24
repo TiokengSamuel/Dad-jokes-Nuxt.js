@@ -5,21 +5,26 @@
 </template>
 
 <script>
-    data(){
+    
+    export default {
+    data() {
         return {
             jokes: []
         }
-    }
-    export default {
-        head() {
-            return {
-                title: 'Dad jokes',
-                meta:[
-                    {
-                        hid: 'description',
-                        name: 'description',
-                        content: 'Best place for corny dad jokes'
-                    }
+    },
+    created() {
+
+    },
+
+     head() {
+        return {
+            title: 'Dad jokes',
+            meta:[
+                {
+                   hid: 'description',
+                    name: 'description',
+                    content: 'Best place for corny dad jokes'
+                 }
                     
                 ]
             }

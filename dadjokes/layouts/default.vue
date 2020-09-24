@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <AppHeader/>
     <nuxt />
   </div>
@@ -27,5 +27,10 @@
     font-size: 1rem;
     line-height: 1.6rem;
     background: #f4f4f4;
+  }
+
+  a {
+    color: #666;
+    text-decoration: none;
   }
 </style>

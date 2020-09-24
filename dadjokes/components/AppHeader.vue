@@ -27,4 +27,9 @@ export default {
         margin-bottom: 1rem;
         border-bottom: 1px dotted #ccc;
     }
+
+    .header .title {
+        font-size: 3rem;
+        color: #526488;
+    }
 </style>

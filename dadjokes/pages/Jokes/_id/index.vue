@@ -1,7 +1,11 @@
 <template>
  
     <div>
-        <nuxt-link to="/jokes">Back To Jokes</nuxt-link>
+        <nuxt-link to="/jokes">
+        Back To Jokes</nuxt-link>
+        <h2>{{joke}}</h2>
+        <hr>
+        <small>Joke Id</small>
     </div>
 </template>
 

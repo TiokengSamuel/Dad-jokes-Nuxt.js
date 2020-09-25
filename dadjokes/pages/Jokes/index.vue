@@ -42,6 +42,7 @@
     methods: {
         onSubmit() {
             this.$emit("search-text", this.text);
+            this.text = "";
         }
     }
      head() {

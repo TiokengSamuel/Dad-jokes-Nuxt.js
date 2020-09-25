@@ -39,6 +39,11 @@
           console.log(err)
       }
     },
+    methods: {
+        onSubmit() {
+            this.$emit("search-text", this.text);
+        }
+    }
      head() {
         return {
             title: 'Dad jokes',

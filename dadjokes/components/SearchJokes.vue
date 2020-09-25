@@ -1,10 +1,17 @@
 <template>
-    
+    <form>
+        
+    </form>
 </template>
 
 <script>
 export default {
-    name: 'SearchJokes'
+    name: 'SearchJokes',
+    data () {
+        return{
+        text: ''
+    }
+ }
 }
 </script>
 

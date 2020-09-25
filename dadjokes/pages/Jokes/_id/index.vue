@@ -12,6 +12,9 @@ export default {
         return {
             joke: {}
         }
+    },
+    created() {
+        
     }
 }
 </script>

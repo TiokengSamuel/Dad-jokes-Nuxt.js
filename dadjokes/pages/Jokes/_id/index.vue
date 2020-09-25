@@ -1,7 +1,7 @@
 <template>
  
     <div>
-        {{ $route.params.id }}
+        <nuxt-link to="/jokes">Back To Jokes</nuxt-link>
     </div>
 </template>
 

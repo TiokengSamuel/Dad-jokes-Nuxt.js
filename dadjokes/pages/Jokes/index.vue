@@ -19,7 +19,7 @@
             }
         }
 
-        const res = await axios.get();
+        const res = await axios.get('https://icanhazdadjoke.com/search', config);
     },
      head() {
         return {

@@ -6,6 +6,7 @@
 
 <script>
     import axios from 'axios'
+    import Joke from '../../components/Joke'
 
     export default {
     data() {
@@ -24,7 +25,7 @@
          config);
          console.log(res.data);
          this.joke = res.data.resulsts;
-         
+
       } catch (err) {
           console.log(err)
       }

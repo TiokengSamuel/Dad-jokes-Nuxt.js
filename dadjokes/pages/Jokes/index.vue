@@ -8,12 +8,13 @@
 <script>
     import axios from "axios"
     import Joke from '../../components/Joke'
-    import Joke from '../../components/SearchJokes'
+    import SearchJokes from '../../components/SearchJokes'
 
 
     export default {
         components: {
-            Joke
+            Joke,
+            SearchJokes
         },
     data() {
         return {

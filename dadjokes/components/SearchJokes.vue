@@ -12,7 +12,12 @@ export default {
         return{
         text: ''
     }
- }
+ },
+    methods: {
+        onSubmit() {
+            this.$e-mit('search-text')
+        }
+    }
 }
 </script>
 

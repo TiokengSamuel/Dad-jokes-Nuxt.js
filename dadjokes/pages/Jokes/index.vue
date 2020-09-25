@@ -1,6 +1,6 @@
 <template>
     <div>
-       <Joke v-for="joke in jokes" v-bind:key="joke.id"/>
+       <Joke v-for="joke in jokes" :key="joke.id"/>
     </div>
 </template>
 

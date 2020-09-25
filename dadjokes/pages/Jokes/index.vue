@@ -40,11 +40,10 @@
       }
     },
     methods: {
-        onSubmit() {
-            this.$emit("search-text", this.text);
-            this.text = "";
+        searchText(text){
+            
         }
-    }
+    },
      head() {
         return {
             title: 'Dad jokes',

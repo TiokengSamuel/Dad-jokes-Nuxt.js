@@ -20,7 +20,7 @@ export default {
             }
         }
       try{
-        const res = await axios.get('https://icanhazdadjoke.com/search',
+        const res = await axios.get(`https://icanhazdadjoke.com/j/${this.$route.params.id}`,
          config);
          console.log(res.data);
 

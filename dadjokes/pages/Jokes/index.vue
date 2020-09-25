@@ -1,6 +1,6 @@
 <template>
     <div>
-        Jokes
+       <Joke v-for="joke in jokes"/>
     </div>
 </template>
 
@@ -9,6 +9,9 @@
     import Joke from '../../components/Joke'
 
     export default {
+        components: {
+            Joke
+        },
     data() {
         return {
             jokes: []

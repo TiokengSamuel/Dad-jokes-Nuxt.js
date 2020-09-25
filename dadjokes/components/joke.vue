@@ -7,10 +7,13 @@
 <script>
 export default {
     name: 'Joke',
-    props: ['joke']
+    props: ['joke', 'id']
 }
 </script>
 
 <style>
-
+.joke {
+    padding: 1rem;
+    border: 1px dotted #ccc;
+}
 </style>

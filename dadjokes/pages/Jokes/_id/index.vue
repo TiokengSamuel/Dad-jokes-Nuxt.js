@@ -24,7 +24,7 @@ export default {
          config);
          console.log(res.data);
 
-         this.jokes = res.data.results;
+         this.joke = res.data.joke;
 
       } catch (err) {
           console.log(err)

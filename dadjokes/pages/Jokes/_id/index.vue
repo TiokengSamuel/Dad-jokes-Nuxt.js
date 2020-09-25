@@ -13,8 +13,22 @@ export default {
             joke: {}
         }
     },
-    created() {
-        
+    async created() {
+        const config = {
+            headers: {
+                Accept : 'application/json'
+            }
+        }
+      try{
+        const res = await axios.get('https://icanhazdadjoke.com/search',
+         config);
+         console.log(res.data);
+
+         this.jokes = res.data.results;
+
+      } catch (err) {
+          console.log(err)
+      }
     }
 }
 </script>

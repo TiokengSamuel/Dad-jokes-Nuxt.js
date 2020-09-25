@@ -47,7 +47,7 @@
             }
         }
       try{
-        const res = await axios.get('https://icanhazdadjoke.com/search',
+        const res = await axios.get(`https://icanhazdadjoke.com/search?term=${text}`,
          config);
          console.log(res.data);
 

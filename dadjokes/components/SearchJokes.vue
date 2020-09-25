@@ -15,7 +15,7 @@ export default {
  },
     methods: {
         onSubmit() {
-            this.$e-mit('search-text', this.text);
+            this.$emit('search-text', this.text);
             this.text = "";
         }
     }

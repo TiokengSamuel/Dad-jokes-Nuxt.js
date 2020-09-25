@@ -1,5 +1,6 @@
 <template>
     <div>
+        <SearchJokes/>
        <Joke v-for="joke in jokes" :key="joke.id" 
        :id="joke.id" :joke="joke.joke"/>
     </div>

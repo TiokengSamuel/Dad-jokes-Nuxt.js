@@ -1,6 +1,6 @@
 <template>
     <form>
-        
+        <input type="text" v-model="text" placeholder="Search Jokes...">
     </form>
 </template>
 

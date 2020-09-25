@@ -24,6 +24,7 @@
          config);
          console.log(res.data);
          this.joke = res.data.resulsts;
+         
       } catch (err) {
           console.log(err)
       }

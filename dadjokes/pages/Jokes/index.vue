@@ -18,8 +18,13 @@
                 'Accept' : 'application/json'
             }
         }
-
-        const res = await axios.get('https://icanhazdadjoke.com/search', config);
+      try{
+        const res = await axios.get('https://icanhazdadjoke.com/search',
+         config);
+         console.log(res.data);
+      } catch (err) {
+          console.log(err)
+      }
     },
      head() {
         return {
